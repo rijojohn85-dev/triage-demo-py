@@ -8,3 +8,4 @@ run; it exists only to give CI something to fail on.
 
 def test_scratch_smoke_break_deliberately_fails() -> None:
     assert False, "deliberate failure for story 1.3 smoke test (throwaway)"
+# retrigger for live smoke check 2026-09-25T23:37:01Z
